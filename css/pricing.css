@@ -3,9 +3,11 @@
 }
 
 .pricing .pricingChild {
-  padding: 100px 150px 10px 150px;
+  padding: 30px 10px;
   display: flex;
   gap: 10px;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .afforablePricingPlans {
@@ -108,42 +110,9 @@
 .pricingPlans button {
   padding: 15px 35px;
   width: 100%;
-  font-size: 18px;
-  background-color: #d16527;
-  border: 2px solid #d16527;
-  color: white;
-  letter-spacing: 2px;
-  margin-top: 50px;
-  position: relative;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.pricingPlans button .col-10-bl {
-  background-color: #161616;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  z-index: 10;
-  clip-path: polygon(0 0, 0% 100%, 100% 0);
-  transition: 0.3s;
-}
-
-.pricingPlans button .col-10-bl:first-child {
-  top: -2px;
-  left: -2px;
-}
-
-.pricingPlans button .col-10-bl:last-child {
-  bottom: -2px;
-  right: -2px;
-  transform: rotate(180deg);
 }
 
 .pricingPlans button:hover {
   background-color: transparent;
 }
 
-.pricingPlans button:hover .col-10-bl {
-  opacity: 0;
-}

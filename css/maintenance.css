@@ -3,7 +3,9 @@
 }
 
 .maintenance .maintenanceChild {
-  padding: 100px 150px 10px 150px;
+  padding: 30px 10px;
+  margin:  0 auto;
+  max-width: 1400px;
 }
 
 .maintenanceName {
@@ -58,15 +60,6 @@
 .maintenanceVideo button {
   z-index: 11;
   padding: 40px;
-  font-size: 18px;
-  background-color: #d16527;
-  border: 2px solid #d16527;
-  color: white;
-  letter-spacing: 2px;
-  position: relative;
-  cursor: pointer;
-  transition: 0.3s;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,35 +68,11 @@
 .maintenanceVideo button .play {
   height: 40px;
   width: 40px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   clip-path: polygon(100% 50%, 0 0, 0 100%);
-}
-
-.maintenanceVideo button .col-10-bl {
-  background-color: #242424;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  z-index: 10;
-  clip-path: polygon(0 0, 0% 100%, 100% 0);
-  transition: 0.3s;
-}
-
-.maintenanceVideo button .col-10-bl:first-child {
-  top: -2px;
-  left: -2px;
-}
-
-.maintenanceVideo button .col-10-bl:last-child {
-  bottom: -3px;
-  right: -2px;
-  transform: rotate(180deg);
 }
 
 .maintenanceVideo button:hover {
   background-color: transparent;
 }
 
-.maintenanceVideo button:hover .col-10-bl {
-  opacity: 0;
-}

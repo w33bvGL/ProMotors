@@ -13,16 +13,29 @@ header {
   position: sticky;
 }
 
+header .headerChild {
+ max-width: 1400px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+}
+
 header .headerChild:nth-child(1) {
   display: flex;
   justify-content: space-between;
-  padding: 30px 150px 30px 150px;
+  padding: 30px 10px;
   align-items: center;
 }
 
-header .headerChild .headerChildLogo {
-  width: 180px;
+header .headerChildLogo a {
+  width: 100%;
   height: 100%;
+  display: block;
+}
+
+header .headerChild .headerChildLogo {
+  width: 200px;
+  min-width: 200px;
 }
 
 header .headerChild .headerChildLogo img {
@@ -35,7 +48,7 @@ header .headerChild .headerChildNavigation nav ul {
   list-style-type: none;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
 }
 
 header .headerChild .headerChildNavigation nav ul li a {
@@ -71,39 +84,11 @@ header .headerChild .headerChildNavigation nav ul li:hover a {
 }
 
 header .headerChild .headerChildCall button {
-  border: 2px solid #d16527;
   padding: 10px 0;
   background-color: transparent;
-  color: white;
-  font-size: 12px !important;
-  font-weight: bold;
-  letter-spacing: 1px;
-  position: relative;
-  cursor: pointer;
-  transition: 0.3s;
   width: 200px;
 }
 
 header .headerChild .headerChildCall button:hover {
   background-color: #d16527;
-}
-
-header .col-10-bl {
-  background-color: #161616;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  z-index: 10;
-  clip-path: polygon(0 0, 0% 100%, 100% 0);
-}
-
-header .col-10-bl:nth-child(1) {
-  left: -2px;
-  top: -2px;
-}
-
-header .col-10-bl:nth-child(2) {
-  bottom: -2px;
-  right: -2px;
-  transform: rotate(180deg);
 }

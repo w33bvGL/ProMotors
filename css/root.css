@@ -24,10 +24,11 @@ body {
 }
 
 body {
-  font-size: 14px;
+  font-size: clamp(12px, 2.5vw, 15px);
   color: white;
   background-color: #161616;
   font-family: "chakraPetch", sans-serif !important;
+  scroll-behavior: smooth !important;
 }
 
 span {
@@ -65,3 +66,18 @@ h4 {
 button {
   font-family: "chakraPetch", sans-serif !important;
 }
+
+button {
+  font-size: 1.1em;
+  background-color: #d16527;
+  border: 2px solid #d16527;
+  color: white;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+
+
