@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-
+    
     if (!empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
         $file = 'subscribers.json';
@@ -11,13 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         file_put_contents($file, json_encode($data));
 
-        echo json_encode(['status' => 'success', 'message' => 'susccessful.']);
+        echo json_encode(['status' => 'success', 'message' => 'success.']);
         header("location:../index.html");
     } else {
-        echo json_encode(['status' => 'error', 'message' => 'Invalid email address.']);
+        echo json_encode(['status' => 'error', 'message' => 'Invalid Email.']);
         header("location:../index.html");
     }
-} else {
-    echo json_encode(['status' => 'error', 'message' => 'Invalid request method.']);
-    header("location:../index.html");
 }
