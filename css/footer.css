@@ -26,7 +26,7 @@ footer .footerCont img {
 }
 
 footer .footerCont p {
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
@@ -36,19 +36,19 @@ footer .footerCont .support {
 }
 
 footer .footerCont .support p {
-  font-size: 12px;
+  font-size: 0.9em;
   color: #c2c2c2;
   margin-bottom: 5px;
 }
 
 footer .support b {
-  font-size: 25px;
+  font-size: 1.2em;
 }
 
 footer ul {
   list-style-type: none;
-  font-size: 15px;
-  width: 100%;
+  font-size: 0.8em;
+  padding-right: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 20px 0;
@@ -62,7 +62,7 @@ footer ul li::before {
   content: "\220E";
   color: #d16527;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.8em;
   display: inline-block;
   width: 15px;
 }
@@ -82,10 +82,6 @@ footer ul li::before {
   width: 30%;
 }
 
-.footerCont:nth-child(3) {
-  width: 35%;
-}
-
 .copyright {
   background-color: #161616;
   width: 100%;
@@ -94,5 +90,5 @@ footer ul li::before {
 }
 
 .copyright p {
-  font-size: 18px !important;
+  font-size: 0.9em !important;
 }

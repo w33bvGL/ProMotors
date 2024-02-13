@@ -1,8 +1,167 @@
-/* header */
 @media screen and (max-width: 1140px) {
-    header .headerChildNavigation {
-        display: none !important;
-    }
+  header .headerChildNavigation {
+    display: none !important;
+  }
 }
 
-/* title */
+@media screen and (max-width: 1024px) {
+  .titleName p {
+    display: none;
+  }
+
+  .mherMotors p {
+    font-size: 10em;
+  }
+
+  .titleChild {
+    margin-top: 50px !important;
+  }
+
+  .titleName h1 {
+    font-size: 4em !important;
+  }
+
+  .title .titleChild:nth-child(1) {
+    height: 100%;
+  }
+
+  .titleImageCar {
+    margin-top: -245px !important;
+    padding-top: 0 !important;
+  }
+
+  .advantages .advantagesContent h2 {
+    font-size: 3em !important;
+    text-align: center;
+  }
+
+  .advantages .advantagesContent p {
+    font-size: 0.9em !important;
+    text-align: center;
+  }
+
+  .advantages .advantagesContent {
+    height: 150px;
+  }
+
+  .servicesChild .servicesName {
+    margin-bottom: 20px;
+  }
+
+  .services .servicesContent p {
+    display: none;
+  }
+
+  .services .servicesContent img {
+    margin-bottom: 10px !important;
+  }
+
+  .services .servicesContent h4 {
+    margin-bottom: 10px;
+  }
+
+  .servicesContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pricingPlans {
+    padding: 20px;
+  }
+
+  .plans {
+    gap: 20px;
+  }
+
+  .afforablePricingPlans p,
+  .appointmentName p {
+    font-size: 1em !important;
+  }
+
+  .appointmentClild .form {
+    padding: 0;
+  }
+
+  .copyright {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .footerCont:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerCont:nth-child(2) {
+    display: none;
+  }
+
+  .appointmentName h3,
+  .appointmentName p,
+  .maintenanceName h3 {
+    text-align: center;
+  }
+
+  .pricing .pricingChild {
+    flex-direction: column;
+  }
+  .plans {
+    width: 100%;
+  }
+
+  .afforablePricingPlans {
+    text-align: center;
+    width: 100%;
+  }
+
+  .afforablePricingPlans ul,
+  .mherMotors,
+  .titleImageCar {
+    display: none;
+  }
+
+  .title .titleChild {
+    flex-direction: column;
+  }
+
+  .titleName {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titleName h1 {
+    text-align: center;
+  }
+
+  .services .servicesContent h4 {
+    font-size: 1.2em;
+  }
+
+  .footerCont:nth-child(4) {
+    width: 50% !important;
+  }
+  .form button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .plans {
+    flex-direction: column;
+  }
+  
+  .titleChildAdvantages {
+    display: none;
+  }
+
+  .headerChildCall {
+    display: none;
+  }
+}

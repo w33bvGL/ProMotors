@@ -52,7 +52,7 @@ header .headerChild .headerChildNavigation nav ul {
 }
 
 header .headerChild .headerChildNavigation nav ul li a {
-  font-size: 15px;
+  font-size: 1em;
   text-transform: uppercase;
   position: relative;
 }
@@ -60,7 +60,7 @@ header .headerChild .headerChildNavigation nav ul li a {
 header .headerChild .headerChildNavigation nav ul li span {
   font-weight: bold;
   margin-left: 5px;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 header .headerChild .headerChildNavigation nav ul li {
