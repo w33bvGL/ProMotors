@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "chakraPetch";
+  src: url(../assets/fonts/ChakraPetch-Regular.ttf);
+}
+
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 14px;
+  color: white;
+  background-color: #161616;
+  font-family: "chakraPetch", sans-serif !important;
+}
+
+span {
+  color: #d16527;
+  font-family: "chakraPetch", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+h4 {
+  font-size: 23px;
+}
+
+button {
+  font-family: "chakraPetch", sans-serif !important;
+}

@@ -1,0 +1,201 @@
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title .titleChild {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 150px;
+  margin-top: 100px;
+  align-items: center;
+  position: relative;
+  gap: 100px;
+}
+
+.title .titleChild:nth-child(1) {
+  height: 470px;
+}
+
+.titleName {
+  width: 40%;
+}
+.titleImageCar {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  padding-top: 150px;
+  animation: 1.5s linear 1s infinite alternate car;
+  transform: translateY(0px);
+  z-index: 110;
+  transition: 0.5s all;
+}
+
+@keyframes car {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.imageLeft,
+.imageRight {
+  z-index: 999;
+}
+
+.imageLeft,
+.imageRight,
+.imageCar,
+.imageCenter {
+  position: absolute;
+  transition: 0.5s all;
+  width: 100%;
+}
+
+.imageLeft img,
+.imageRight img,
+.imageCar img,
+.imageCenter img {
+  width: 100%;
+}
+
+.imageCar {
+  width: 100%;
+  z-index: 100;
+}
+
+.imageCenter {
+  z-index: 110;
+}
+
+.imageCenter img {
+  width: 100%;
+}
+
+.titleName h1 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 66px;
+  text-transform: uppercase;
+}
+
+.titleName p {
+  font-size: 18px !important;
+  line-height: 30px !important;
+}
+
+.titleImageCar .imageLeft,
+.titleImageCar .imageRight {
+  display: flex;
+  opacity: 0;
+}
+
+.titleImageCar:hover .imageLeft,
+.titleImageCar:hover .imageRight {
+  display: flex;
+  opacity: 1;
+}
+
+.mherMotors {
+  position: absolute;
+  z-index: -1;
+  text-align: right;
+  right: 0;
+  top: -50px;
+  margin-right: 150px;
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: "mherMotors";
+  src: url(../assets/fonts/ChakraPetch-Bold.ttf);
+}
+.mherMotors p {
+  font-size: 180px;
+  text-transform: uppercase;
+  color: #161616;
+  font-weight: bold;
+  font-family: "mherMotors", sans-serif;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.1);
+}
+
+.titleChild:nth-child(2) {
+  background-color: #121212;
+  height: 100%;
+  padding: 150px;
+}
+
+.titleName button {
+  padding: 15px 0;
+  font-size: 18px;
+  background-color: #d16527;
+  border: 2px solid #d16527;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.titleName button .col-10-bl {
+  background-color: #161616;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 10;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  transition: 0.3s;
+}
+
+.titleName button .col-10-bl:first-child {
+  top: -2px;
+  left: -2px;
+}
+
+.titleName button .col-10-bl:last-child {
+  bottom: -2px;
+  right: -3px;
+  transform: rotate(180deg);
+}
+
+.titleName button:hover {
+  background-color: transparent;
+}
+
+.titleName button:hover .col-10-bl {
+  opacity: 0;
+}
+
+/* advantages */
+.advantages {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages .advantagesContent {
+  width: 100%;
+}
+
+.advantages .advantagesContent h2 {
+  font-size: 66px;
+}
+
+.advantages .advantagesContent p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.advantages .advantagesContent .advantagesContentLine {
+  width: 100%;
+  height: 2px;
+  background-color: #242424;
+}

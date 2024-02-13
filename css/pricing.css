@@ -1,0 +1,149 @@
+.pricing {
+  width: 100%;
+}
+
+.pricing .pricingChild {
+  padding: 100px 150px 10px 150px;
+  display: flex;
+  gap: 10px;
+}
+
+.afforablePricingPlans {
+  width: 30%;
+}
+
+.plans {
+  display: flex;
+  gap: 50px;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.afforablePricingPlans h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.pricingPlans {
+  width: 100%;
+  padding: 40px;
+  background-color: #121212;
+}
+
+.afforablePricingPlans p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.afforablePricingPlans ul {
+  list-style-type: none;
+  font-size: 18px;
+  color: white;
+}
+
+.afforablePricingPlans ul li {
+  margin-bottom: 20px;
+}
+
+.afforablePricingPlans ul li::before {
+  content: "\220E";
+  color: #d16527;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  width: 15px;
+}
+
+.pricingPlans .pl-ans {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.pricingPlans {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricingPlans h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.pricingPlans .pricingPlansLine {
+  width: 50%;
+  height: 2px;
+  background-color: #474747;
+  margin: 20px 0;
+}
+
+.pricingPlans ul {
+  list-style-type: none;
+  font-size: 17px;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.pricingPlans ul li {
+  margin-bottom: 20px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricingPlans .active {
+  opacity: 1;
+}
+
+.pricingPlans ul i::before {
+  content: "\2714";
+}
+
+.pricingPlans button {
+  padding: 15px 35px;
+  width: 100%;
+  font-size: 18px;
+  background-color: #d16527;
+  border: 2px solid #d16527;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pricingPlans button .col-10-bl {
+  background-color: #161616;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 10;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  transition: 0.3s;
+}
+
+.pricingPlans button .col-10-bl:first-child {
+  top: -2px;
+  left: -2px;
+}
+
+.pricingPlans button .col-10-bl:last-child {
+  bottom: -2px;
+  right: -2px;
+  transform: rotate(180deg);
+}
+
+.pricingPlans button:hover {
+  background-color: transparent;
+}
+
+.pricingPlans button:hover .col-10-bl {
+  opacity: 0;
+}

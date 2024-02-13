@@ -1,0 +1,109 @@
+header {
+  width: 100%;
+  background-color: #161616;
+  z-index: 999;
+}
+
+#fixedHeader {
+  color: #fff;
+  width: 100%;
+  top: -80px;
+  transition: top 0.3s ease-in-out;
+  border-bottom: 1px solid #161616;
+  position: sticky;
+}
+
+header .headerChild:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px 30px 150px;
+  align-items: center;
+}
+
+header .headerChild .headerChildLogo {
+  width: 180px;
+  height: 100%;
+}
+
+header .headerChild .headerChildLogo img {
+  width: 100%;
+}
+
+header .headerChild .headerChildNavigation nav ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+header .headerChild .headerChildNavigation nav ul li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+header .headerChild .headerChildNavigation nav ul li span {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+header .headerChild .headerChildNavigation nav ul li {
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+
+header .headerChild .headerChildNavigation nav ul li a {
+  color: white;
+  transition: 0.2s;
+}
+
+header .headerChild .headerChildNavigation nav ul li:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d16527;
+}
+
+header .headerChild .headerChildNavigation nav ul li:hover a {
+  color: #d16527;
+}
+
+header .headerChild .headerChildCall button {
+  border: 2px solid #d16527;
+  padding: 10px 0;
+  background-color: transparent;
+  color: white;
+  font-size: 12px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+}
+
+header .headerChild .headerChildCall button:hover {
+  background-color: #d16527;
+}
+
+header .col-10-bl {
+  background-color: #161616;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 10;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+header .col-10-bl:nth-child(1) {
+  left: -2px;
+  top: -2px;
+}
+
+header .col-10-bl:nth-child(2) {
+  bottom: -2px;
+  right: -2px;
+  transform: rotate(180deg);
+}
