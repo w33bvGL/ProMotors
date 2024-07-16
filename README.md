@@ -1,4 +1,4 @@
-# Crito - Smart-Thinking & Innovative Solution.
+# ProMotors - Online car maintenance services
 
 ![site logo](img/Logo.png)
 
