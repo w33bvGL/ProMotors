@@ -4,8 +4,8 @@
   <img src="img/logo.png" alt="ProMotors logo" style="width: 150px;">
 </a>
 
-Author: @designerzubaear <br>
-Email: service.design71@gmail.com
+Author: @bravisthemes <br>
+Phone: +880 1680 6361 89
 
 ![site statistics](img/stats.png)
 ![site img](img/promotors.png)
