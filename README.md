@@ -7,7 +7,7 @@
 Author: @designerzubaear <br>
 Email: service.design71@gmail.com
 
-![site statistics](doc/stats.png)
+![site statistics](img/stats.png)
 ![site img](img/promotors.png)
 
   
