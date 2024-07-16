@@ -1,6 +1,6 @@
 # ProMotors - Online car maintenance services
 
-![site logo](img/Logo.png)
+![site logo](img/logo.png)
 
 Author: @designerzubaear <br>
 Email: service.design71@gmail.com
