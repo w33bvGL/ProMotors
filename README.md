@@ -1,6 +1,8 @@
 # ProMotors - Online car maintenance services
 
-![site logo](img/logo.png)
+<a href="https://w33bvgl.github.io/pro-motors/">
+  <img src="img/logo.png" alt="ProMotors logo" style="width: 120px;">
+</a>
 
 Author: @designerzubaear <br>
 Email: service.design71@gmail.com
